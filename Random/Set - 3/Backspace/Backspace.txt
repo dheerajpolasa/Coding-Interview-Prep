@@ -1,0 +1,8 @@
+Given a string consisting of lower case characters and hashes(#) where each hash represents a back space .
+Find the resultant string after removing the backspaces from the given input string.
+(Note : there will be no condition where we use backspace on empty string )
+
+Example :
+
+ Input: xy#z
+ Output: xz
