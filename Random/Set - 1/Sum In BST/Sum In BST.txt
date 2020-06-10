@@ -1,0 +1,1 @@
+You are given with a BST and an integer k. You need to find the sum of k smallest elements of the BST.
