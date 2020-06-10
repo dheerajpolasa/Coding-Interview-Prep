@@ -1,0 +1,16 @@
+Gotham has been attacked by Joker . Bruce Wayne has deployed automatic machine gun at each tower of Gotham.
+All the towers in Gotham are in straight line.
+You are given no of towers 'n' followed by height of 'n' towers.
+For every tower(p), find the height of the closest tower (towards the right), greater than the height of tower(p).
+Now , Print sum of all such heights (mod 1000000007).
+Note : If for a tower(k) , no such tower exsits then take its height as 0.
+
+
+Sample Input:
+
+9
+112 133 161 311 122 512 1212 0 19212
+
+Sample Output:
+
+41265
