@@ -1,0 +1,20 @@
+You went to a fruit store to purchase some apples. 
+Each apple has its own price. 
+There is an offer going on at the store that buy three apples and get the least cost one for free.
+For example, 
+let the prices of the apples be: 10 3 2 4 6 4 9. 
+If you arrange them into groups: (10, 3, 2), (4, 6, 4) and (9), 
+you would get the apples priced 2 from the first group for free and the apple priced 4 from the second group. 
+You won’t get anything for free from the third group because it contains only one apple.
+Your task is to minimize the cost of apples.
+
+Sample Input 1:
+4 --> Number of apples followed by actual prices of apples
+3
+2
+3
+2 
+Sample Output 1:
+8
+Explanation:
+Make 2 triplets (3,3,2) and (2) in first group 2 is for free so total cost is 3+3+2=6.
