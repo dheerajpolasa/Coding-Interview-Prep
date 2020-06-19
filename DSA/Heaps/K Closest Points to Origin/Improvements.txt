@@ -1,0 +1,18 @@
+We can maintain a priority queue of size k.
+
+Traverse the array and add it in the priority queue Max Heap, as soon as the queue size is equal to k, pop out the farthest point
+in the priority queue.
+
+Time Complexity is : O(N log K) where K is number of closest points
+
+
+Another approach is using divide and conquer:
+
+We just need k closest points to the origin, order doesn't matter
+so we can levarage the quick sort technique here
+
+Sort the array using distance and when you hit the pivot place of k, then break
+
+because when you hit the pivot place as k, then the left elements are already sorted, so you can directly return them order doesn't matter
+
+Link to problem solution:
