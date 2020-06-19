@@ -5,4 +5,4 @@ However we can also approach this problem using heaps that complexity will be O(
 
 Link to the Solution of Heap:
 
-https://github.com/dheerajpolasa/Coding-Interview-Prep/tree/master/DSA/Heaps
+https://github.com/dheerajpolasa/Coding-Interview-Prep/tree/master/DSA/Heaps/K%20Closest%20Points%20to%20Origin
