@@ -1,0 +1,8 @@
+This is the best solution as Average Time Complexity is O(N) and worst is O(N^2).
+
+However we can also approach this problem using heaps that complexity will be O(N log K)
+
+
+Link to the Solution of Heap:
+
+https://github.com/dheerajpolasa/Coding-Interview-Prep/tree/master/DSA/Heaps
