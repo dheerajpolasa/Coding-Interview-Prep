@@ -16,3 +16,4 @@ Sort the array using distance and when you hit the pivot place of k, then break
 because when you hit the pivot place as k, then the left elements are already sorted, so you can directly return them order doesn't matter
 
 Link to problem solution:
+https://github.com/dheerajpolasa/Coding-Interview-Prep/tree/master/DSA/Sorting/K%20closets%20points%20to%20origin
