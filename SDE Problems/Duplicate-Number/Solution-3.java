@@ -8,6 +8,15 @@ class Solution {
   }
   
   private static int findDuplicateNumber(int[] arr) {
+    for(int i=0; i<arr.length; i++) {
+      for(int j=i+1; j<arr.lenght; j++) {
+        if(arr[i] == arr[j]) {
+          return arr[i];
+        }
+      }
+    }
+    
+    return -1;
   }
   
 }
