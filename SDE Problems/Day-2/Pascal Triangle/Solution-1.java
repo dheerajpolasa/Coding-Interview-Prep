@@ -9,6 +9,7 @@ class Solution {
   
   private static List<List<Integer>> generatePascalTriangle(int numRows) {
     List<List<Integer>> result = new ArrayList<>();
+    if(numRows == 0) return result;
     List<Integer> firstRow = new ArrayList<>();
     firstRow.add(1);
     result.add(firstRow);
@@ -17,7 +18,7 @@ class Solution {
       List<Integer> curRow = new ArrayList<>();
       curRow.add(1);
       for(int j=1; j<result.get(i-1).size(); j++) {
-        int curVal = result.get(i).get(j) + result.get(i).get(j-1);
+        int curVal = result.get(i-1).get(j) + result.get(i-1).get(j-1);
         curRow.add(curVal);
       }
       curRow.add(1);
