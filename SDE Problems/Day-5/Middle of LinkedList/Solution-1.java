@@ -1,5 +1,5 @@
 class Solution {
-  public ListNode middleNode(TreeNode head) {
+  public ListNode middleNode(ListNode head) {
     int len = getLength(head);
     int mid = len / 2;
     ListNode cur = head;
@@ -13,7 +13,7 @@ class Solution {
     
   }
   
-  private int getLength(TreeNode head) {
+  private int getLength(ListNode head) {
     int len = 0;
     ListNode cur = head;
     while(cur != null) {
