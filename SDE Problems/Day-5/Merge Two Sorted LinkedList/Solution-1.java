@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
+// Iterative
 class Solution {
   public ListNode mergeLists(ListNode head1, ListNode head2) {
     ListNode dummyHead = new ListNode(-1);
